@@ -1,0 +1,128 @@
+@import url('../lib/variables.import.less');
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Layout Styles
+ * ----------------------------------------------------------------------------------------
+ */
+
+/* Helper Classes */
+.l-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.l-align-left {
+  float: left;
+}
+
+.l-align-right {
+  float: right;
+}
+
+.l-align-center {
+  text-align: center;
+}
+
+.l-vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+//  CONTAINER
+.container {
+  width:1200px;
+ margin:auto;
+}
+
+
+
+// ***** BULSHIT!!!!!!!!!!! TOPBAR STYLES (DELETE!)
+//
+
+// .topbar {
+//       width:1200px;
+//       height:50px;
+//       position: fixed;
+//       top:0;
+//       z-index: 9999;
+//       margin: auto;
+//       background-color: fade(@navbar, 75%);
+//         .menu {
+//           width:1200px;
+//           height:50px;
+//         }
+// }
+
+//     img.logo {
+//       width:10em;
+//       margin-left:1em;
+//       // position:relative;
+//       // top:0.85em;
+//       // left: 0.85em;
+//     }
+//     ul>li>a {
+//       font-family: 'Roboto';
+//       font-weight: 500;
+//       text-transform: uppercase;
+//       color: @navlink;
+//       line-height: 3.2em;
+//     }
+
+//       .request {
+//           padding:10px;
+//           border: 1px solid @brand-primary;
+//           background-color: @brand-primary;
+//           border-radius: 1px;
+//         }
+
+
+/* Flexbox Classes*/
+// .l-box {
+//   display:flex;
+
+//     .start {
+//       justify-content:flex-start;
+//     }
+
+//     .end {
+//       justify-content:flex-end;
+//     }
+
+//     .center {
+//       justify-content:flex-center;
+//     }
+
+//     .around {
+//       justify-content:space-around;
+//     }
+
+//     .between {
+//       justify-content:space-between;
+//     }
+// }
+
+
+// .centered-row {
+// flex-direction:row;
+// flex-wrap:wrap;
+// align-items:center;
+// justify-content:space-between;
+// }
+
+// s
+// .flex-col {
+// flex-direction:collumn;
+// }
+
+
+
+/*Lists*/
+
+.l-inline-list {
+  > li {
+    margin-right: .5em;
+    display: inline-block;
+  }
+}
